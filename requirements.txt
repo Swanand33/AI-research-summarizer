@@ -1,0 +1,35 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+click==8.1.7
+python-dotenv==1.0.0
+
+# AI/ML dependencies
+openai==1.3.5
+anthropic==0.7.7
+sentence-transformers==2.2.2
+chromadb==0.4.18
+langchain==0.0.340
+
+# Data processing
+arxiv==2.0.0
+PyPDF2==3.0.1
+pandas==2.1.3
+numpy==1.26.2
+
+# Web scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+
+# Development
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Documentation
+pydantic==2.5.2

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "",
+    "title": "Gaussian Variation Field Diffusion for High-fidelity Video-to-4D Synthesis",
+    "authors": [
+      "Bowen Zhang",
+      "Sicheng Xu",
+      "Chuxin Wang",
+      "Jiaolong Yang",
+      "Feng Zhao",
+      "Dong Chen",
+      "Baining Guo"
+    ],
+    "abstract": "In this paper, we present a novel framework for video-to-4D generation that\ncreates high-quality dynamic 3D content from single video inputs. Direct 4D\ndiffusion modeling is extremely challenging due to costly data construction and\nthe high-dimensional nature of jointly representing 3D shape, appearance, and\nmotion. We address these challenges by introducing a Direct 4DMesh-to-GS\nVariation Field VAE that directly encodes canonical Gaussian Splats (GS) and\ntheir temporal variations from 3D animation data without per-instance fitting,\nand compresses high-dimensional animations into a compact latent space.\nBuilding upon this efficient representation, we train a Gaussian Variation\nField diffusion model with temporal-aware Diffusion Transformer conditioned on\ninput videos and canonical GS. Trained on carefully-curated animatable 3D\nobjects from the Objaverse dataset, our model demonstrates superior generation\nquality compared to existing methods. It also exhibits remarkable\ngeneralization to in-the-wild video inputs despite being trained exclusively on\nsynthetic data, paving the way for generating high-quality animated 3D content.\nProject page: https://gvfdiffusion.github.io/.",
+    "published": "2025-07-31T17:59:51+00:00",
+    "categories": [
+      "cs.CV"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.23785v1",
+    "arxiv_url": "http://arxiv.org/abs/2507.23785v1"
+  },
+  {
+    "id": "",
+    "title": "Half-Physics: Enabling Kinematic 3D Human Model with Physical Interactions",
+    "authors": [
+      "Li Siyao",
+      "Yao Feng",
+      "Omid Tehari",
+      "Chen Change Loy",
+      "Michael J. Black"
+    ],
+    "abstract": "While current general-purpose 3D human models (e.g., SMPL-X) efficiently\nrepresent accurate human shape and pose, they lacks the ability to physically\ninteract with the environment due to the kinematic nature. As a result,\nkinematic-based interaction models often suffer from issues such as\ninterpenetration and unrealistic object dynamics. To address this limitation,\nwe introduce a novel approach that embeds SMPL-X into a tangible entity capable\nof dynamic physical interactions with its surroundings. Specifically, we\npropose a \"half-physics\" mechanism that transforms 3D kinematic motion into a\nphysics simulation. Our approach maintains kinematic control over inherent\nSMPL-X poses while ensuring physically plausible interactions with scenes and\nobjects, effectively eliminating penetration and unrealistic object dynamics.\nUnlike reinforcement learning-based methods, which demand extensive and complex\ntraining, our half-physics method is learning-free and generalizes to any body\nshape and motion; meanwhile, it operates in real time. Moreover, it preserves\nthe fidelity of the original kinematic motion while seamlessly integrating\nphysical interactions",
+    "published": "2025-07-31T17:58:33+00:00",
+    "categories": [
+      "cs.CV"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.23778v1",
+    "arxiv_url": "http://arxiv.org/abs/2507.23778v1"
+  },
+  {
+    "id": "",
+    "title": "Formal Bayesian Transfer Learning via the Total Risk Prior",
+    "authors": [
+      "Nathan Wycoff",
+      "Ali Arab",
+      "Lisa O. Singh"
+    ],
+    "abstract": "In analyses with severe data-limitations, augmenting the target dataset with\ninformation from ancillary datasets in the application domain, called source\ndatasets, can lead to significantly improved statistical procedures. However,\nexisting methods for this transfer learning struggle to deal with situations\nwhere the source datasets are also limited and not guaranteed to be\nwell-aligned with the target dataset. A typical strategy is to use the\nempirical loss minimizer on the source data as a prior mean for the target\nparameters, which places the estimation of source parameters outside of the\nBayesian formalism. Our key conceptual contribution is to use a risk minimizer\nconditional on source parameters instead. This allows us to construct a single\njoint prior distribution for all parameters from the source datasets as well as\nthe target dataset. As a consequence, we benefit from full Bayesian uncertainty\nquantification and can perform model averaging via Gibbs sampling over\nindicator variables governing the inclusion of each source dataset. We show how\na particular instantiation of our prior leads to a Bayesian Lasso in a\ntransformed coordinate system and discuss computational techniques to scale our\napproach to moderately sized datasets. We also demonstrate that recently\nproposed minimax-frequentist transfer learning techniques may be viewed as an\napproximate Maximum a Posteriori approach to our model. Finally, we demonstrate\nsuperior predictive performance relative to the frequentist baseline on a\ngenetics application, especially when the source data are limited.",
+    "published": "2025-07-31T17:55:16+00:00",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.23768v1",
+    "arxiv_url": "http://arxiv.org/abs/2507.23768v1"
+  }
+]

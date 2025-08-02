@@ -1,0 +1,94 @@
+[
+  {
+    "id": "",
+    "title": "Scale-anomaly-induced confining pressure within hadrons",
+    "authors": [
+      "Daisuke Fujii",
+      "Mitsuru Tanaka"
+    ],
+    "abstract": "The effect of the QCD scale anomaly on the internal pressure distribution of\nhadrons is studied based on the trace-traceless decomposition of the\nenergy-momentum tensor. Using recent model-independent results of gravitational\nform factors as input, the pressure distributions of both pions and nucleons\nare analyzed in the instant form and the light-front form. It is found that, in\nall cases, the scale anomaly dominantly generates the confining pressure. This\nresult suggests that the phenomenon is a universal feature, independent of\nmodels, types of hadrons, and the choice of form.",
+    "published": "2025-07-31T17:59:59+00:00",
+    "categories": [
+      "hep-ph",
+      "hep-ex",
+      "hep-lat",
+      "hep-th",
+      "nucl-th"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.23786v1",
+    "arxiv_url": "http://arxiv.org/abs/2507.23786v1"
+  },
+  {
+    "id": "",
+    "title": "Amplitude amplification and estimation require inverses",
+    "authors": [
+      "Ewin Tang",
+      "John Wright"
+    ],
+    "abstract": "We prove that the generic quantum speedups for brute-force search and\ncounting only hold when the process we apply them to can be efficiently\ninverted. The algorithms speeding up these problems, amplitude amplification\nand amplitude estimation, assume the ability to apply a state preparation\nunitary $U$ and its inverse $U^\\dagger$; we give problem instances based on\ntrace estimation where no algorithm which uses only $U$ beats the naive,\nquadratically slower approach. Our proof of this is simple and goes through the\ncompressed oracle method introduced by Zhandry. Since these two subroutines are\nresponsible for the ubiquity of the quadratic \"Grover\" speedup in quantum\nalgorithms, our result explains why such speedups are far harder to come by in\nthe settings of quantum learning, metrology, and sensing. In these settings,\n$U$ models the evolution of an experimental system, so implementing $U^\\dagger$\ncan be much harder -- tantamount to reversing time within the system. Our\nresult suggests a dichotomy: without inverse access, quantum speedups are\nscarce; with it, quantum speedups abound.",
+    "published": "2025-07-31T17:59:59+00:00",
+    "categories": [
+      "quant-ph",
+      "cs.CC",
+      "cs.DS"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.23787v1",
+    "arxiv_url": "http://arxiv.org/abs/2507.23787v1"
+  },
+  {
+    "id": "",
+    "title": "Gaussian Variation Field Diffusion for High-fidelity Video-to-4D Synthesis",
+    "authors": [
+      "Bowen Zhang",
+      "Sicheng Xu",
+      "Chuxin Wang",
+      "Jiaolong Yang",
+      "Feng Zhao",
+      "Dong Chen",
+      "Baining Guo"
+    ],
+    "abstract": "In this paper, we present a novel framework for video-to-4D generation that\ncreates high-quality dynamic 3D content from single video inputs. Direct 4D\ndiffusion modeling is extremely challenging due to costly data construction and\nthe high-dimensional nature of jointly representing 3D shape, appearance, and\nmotion. We address these challenges by introducing a Direct 4DMesh-to-GS\nVariation Field VAE that directly encodes canonical Gaussian Splats (GS) and\ntheir temporal variations from 3D animation data without per-instance fitting,\nand compresses high-dimensional animations into a compact latent space.\nBuilding upon this efficient representation, we train a Gaussian Variation\nField diffusion model with temporal-aware Diffusion Transformer conditioned on\ninput videos and canonical GS. Trained on carefully-curated animatable 3D\nobjects from the Objaverse dataset, our model demonstrates superior generation\nquality compared to existing methods. It also exhibits remarkable\ngeneralization to in-the-wild video inputs despite being trained exclusively on\nsynthetic data, paving the way for generating high-quality animated 3D content.\nProject page: https://gvfdiffusion.github.io/.",
+    "published": "2025-07-31T17:59:51+00:00",
+    "categories": [
+      "cs.CV"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.23785v1",
+    "arxiv_url": "http://arxiv.org/abs/2507.23785v1"
+  },
+  {
+    "id": "",
+    "title": "SUB: Benchmarking CBM Generalization via Synthetic Attribute Substitutions",
+    "authors": [
+      "Jessica Bader",
+      "Leander Girrbach",
+      "Stephan Alaniz",
+      "Zeynep Akata"
+    ],
+    "abstract": "Concept Bottleneck Models (CBMs) and other concept-based interpretable models\nshow great promise for making AI applications more transparent, which is\nessential in fields like medicine. Despite their success, we demonstrate that\nCBMs struggle to reliably identify the correct concepts under distribution\nshifts. To assess the robustness of CBMs to concept variations, we introduce\nSUB: a fine-grained image and concept benchmark containing 38,400 synthetic\nimages based on the CUB dataset. To create SUB, we select a CUB subset of 33\nbird classes and 45 concepts to generate images which substitute a specific\nconcept, such as wing color or belly pattern. We introduce a novel Tied\nDiffusion Guidance (TDG) method to precisely control generated images, where\nnoise sharing for two parallel denoising processes ensures that both the\ncorrect bird class and the correct attribute are generated. This novel\nbenchmark enables rigorous evaluation of CBMs and similar interpretable models,\ncontributing to the development of more robust methods. Our code is available\nat https://github.com/ExplainableML/sub and the dataset at\nhttp://huggingface.co/datasets/Jessica-bader/SUB.",
+    "published": "2025-07-31T17:59:40+00:00",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.23784v1",
+    "arxiv_url": "http://arxiv.org/abs/2507.23784v1"
+  },
+  {
+    "id": "",
+    "title": "Projected branes as platforms for crystalline, superconducting, and higher-order topological phases",
+    "authors": [
+      "Archisman Panigrahi",
+      "Bitan Roy"
+    ],
+    "abstract": "Projected branes are constituted by only a small subset of sites of a\nhigher-dimensional crystal, otherwise placed on a hyperplane oriented at an\nirrational or a rational slope therein, for which the effective Hamiltonian is\nconstructed by systematically integrating out the sites of the parent lattice\nthat fall outside such branes [Commun. Phys. 5, 230 (2022)]. Specifically, when\nsuch a brane is constructed from a square lattice, it gives rise to an\naperiodic Fibonacci quasi-crystal or its rational approximant in one dimension.\nIn this work, starting from square lattice-based models for topological\ncrystalline insulators, protected by the discrete four-fold rotational ($C_4$)\nsymmetry, we show that the resulting one-dimensional projected topological\nbranes encode all the salient signatures of such phases in terms of robust\nendpoint zero-energy modes, quantized local topological markers, and mid-gap\nmodes bound to dislocation lattice defects, despite such linear branes being\ndevoid of the $C_4$ symmetry of the original lattice. Furthermore, we show that\nsuch branes can also feature all the hallmarks of two-dimensional strong and\nweak topological superconductors through Majorana zero-energy bound states\nresiding near their endpoints and at the core of dislocation lattice defects,\nbesides possessing suitable quantized local topological markers. Finally, we\nshowcase a successful incarnation of a square lattice-based second-order\ntopological insulator with the characteristic corner-localized zero modes in\nits geometric descendant one-dimensional quasi-crystalline or crystalline\nbranes that feature a quantized localizer index and endpoint zero-energy modes\nonly when one of its end points passes through a corner of the parent crystal.\nPossible designer quantum and meta material-based platforms to experimentally\nharness our theoretically proposed topological branes are discussed.",
+    "published": "2025-07-31T17:59:32+00:00",
+    "categories": [
+      "cond-mat.mes-hall",
+      "cond-mat.dis-nn",
+      "cond-mat.supr-con"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.23783v1",
+    "arxiv_url": "http://arxiv.org/abs/2507.23783v1"
+  }
+]

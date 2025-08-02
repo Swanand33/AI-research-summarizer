@@ -1,0 +1,17 @@
+{
+  "sample_papers": [
+    {
+      "paper_id": "sample_001",
+      "title": "Attention Is All You Need",
+      "authors": ["Vaswani et al."],
+      "summary": "This groundbreaking paper introduces the Transformer architecture, relying entirely on self-attention mechanisms without recurrence or convolution. The model achieves state-of-the-art results on machine translation tasks while being more parallelizable and requiring less training time.",
+      "key_points": [
+        "Introduces the Transformer architecture based solely on attention mechanisms",
+        "Achieves SOTA on WMT 2014 English-to-German and English-to-French translation",
+        "More parallelizable and faster to train than recurrent models",
+        "Multi-head attention allows the model to attend to different positions",
+        "Positional encodings provide sequence order information"
+      ]
+    }
+  ]
+}
