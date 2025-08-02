@@ -23,7 +23,7 @@
 ### 1. Clone and Setup
 
 ```bash
-git clone https://github.com/yourusername/ai-research-summarizer.git
+git clone 
 cd ai-research-summarizer
 
 # Create virtual environment
